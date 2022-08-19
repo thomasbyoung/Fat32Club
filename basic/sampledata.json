@@ -1,4 +1,6 @@
-"sample employee data":
+
+{
+    "sample employee data":
 		[
 			{ "name": "Tanya Thisisalotofpressure", "office": "Chicago..? idk", "position": "s... s... sales?", "department": "she's already in sales", "assigned to": "you", "percent": "1000%", "startdate": "never >:)"},
 			{ "name": "5002", "office": "Glazed", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
@@ -8,3 +10,4 @@
 			{ "name": "5003", "office": "Chocolate", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
 			{ "name": "5004", "office": "Maple", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"}
 		]
+}
