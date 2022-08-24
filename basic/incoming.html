@@ -13,7 +13,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     
-        
+        <script src=
+        "https://code.jquery.com/jquery-3.5.1.js">
+            </script>   
     
     <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
@@ -175,153 +177,50 @@
                   <th scope="col">Start Date</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-                <tr>
-                  <td>Thomas Walsh</td>
-                  <td>Chicago</td>
-                  <td>Big Brain</td>
-                  <td>Big Brainers</td>
-                  <td>Brandon Moy</td>
-                  <td>-35%</td>
-                  <td>4/11/1943</td>
-                </tr>
-              </tbody>
-            </table>
+              </table>
+              <script>
+                $(document).ready(function () {
+  
+                    // FETCHING DATA FROM JSON FILE
+                    $.getJSON("sampledata.json", 
+                            function (data) {
+                        var employee = '';
+  
+                        // ITERATING THROUGH OBJECTS
+                        $.each(data, function (key, value) {
+  
+                            //CONSTRUCTION OF ROWS HAVING
+                            // DATA FROM JSON OBJECT
+                            employee += '<tr>';
+                            employee += '<td>' + 
+                                value.name + '</td>';
+  
+                            employee += '<td>' + 
+                                value.office + '</td>';
+  
+                            employee += '<td>' + 
+                                value.position + '</td>';
+  
+                            employee += '<td>' + 
+                                value.department + '</td>';
+
+                            employee += '<td>' + 
+                                value.assignedto + '</td>';
+
+                            employee += '<td>' + 
+                                value.percent + '</td>';
+
+                            employee += '<td>' + 
+                                value.startdate + '</td>';
+  
+                            employee += '</tr>';
+                        });
+                          
+                        //INSERTING ROWS INTO TABLE 
+                        $('#table').append(student);
+                    });
+                });
+            </script>
           </div>
         </main>
       </div>

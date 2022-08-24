@@ -2,12 +2,12 @@
 {
     "sample employee data":
 		[
-			{ "name": "Tanya Thisisalotofpressure", "office": "Chicago..? idk", "position": "s... s... sales?", "department": "she's already in sales", "assigned to": "you", "percent": "1000%", "startdate": "never >:)"},
-			{ "name": "5002", "office": "Glazed", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
-			{ "name": "5005", "office": "Sugar", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
-			{ "name": "5007", "office": "Powdered Sugar", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
-			{ "name": "5006", "office": "Chocolate with Sprinkles", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
-			{ "name": "5003", "office": "Chocolate", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
-			{ "name": "5004", "office": "Maple", "position": "big brain", "department": "big brainers", "assigned to": "t-money$$$", "percent": "110%", "startdate": "now >:)"}
+			{ "name": "Tanya Thisisalotofpressure", "office": "Chicago..? idk", "position": "s... s... sales?", "department": "she's already in sales", "assignedto": "you", "percent": "1000%", "startdate": "never >:)"},
+			{ "name": "5002", "office": "Glazed", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
+			{ "name": "5005", "office": "Sugar", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
+			{ "name": "5007", "office": "Powdered Sugar", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
+			{ "name": "5006", "office": "Chocolate with Sprinkles", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
+			{ "name": "5003", "office": "Chocolate", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"},
+			{ "name": "5004", "office": "Maple", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"}
 		]
 }
