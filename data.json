@@ -1,0 +1,9 @@
+{
+    "Employee Data":
+		[
+            {"DataName": "001","Office": "Chicago","Title": "Systems Technician","Department": "Information Technology","FirstName": "Brandon","LastName": "Moy","EndDate": "11/22/22","Type": "Resignation","Supervisor": "Dennis Burnett","AsignedTo": "Thomas Walsh","Percent": "100%"},
+            {"DataName": "002","Office": "Chicago","Title": "Systems Technician","Department": "Information Technology","FirstName": "Thomas","LastName": "Walsh","EndDate": "10/20/23","Type": "Dismissal","Supervisor": "Dennis Burnett","AsignedTo": "John Savier","Percent": "50%"},
+            {"DataName": "003","Office": "Chicago","Title": "IT Intern","Department": "Information Technology","FirstName": "Isaac","LastName": "Montano","EndDate": "08/17/22","Type": "Intern Resignation","Supervisor": "Dennis Burnett","AsignedTo": "Isaac Montano","Percent": "100%"},
+            {"DataName": "004","Office": "Chicago","Title": "Help Desk Manager","Department": "Information Technology","FirstName": "Dennis","LastName": "Burnett","EndDate": "09/15/23","Type": "Dismissal","Supervisor": "Mike Carr","AsignedTo": "Kriz Rojas","Percent": "200%"}
+		]
+}
