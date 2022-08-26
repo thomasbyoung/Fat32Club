@@ -76,6 +76,21 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      .im-logo {
+        width: 30%;
+      }
+      @media screen and (max-width: 700px) {
+      .im-logo {
+          width: 20%;
+        }
+      }
+      @media screen and (max-width: 400px) {
+      .im-logo {
+          width: 10%;
+        }
+      }
+
     </style>
 
     
@@ -85,7 +100,12 @@
   <body>
     
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="index.html"><img src="logo.png" width="85%" height="45%"> </a>
+
+  <div class="im-logo">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" 
+   href="index.html"><img src="logo.png" class="im-logo"> </a>
+  </div>
+
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
