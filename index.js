@@ -1,10 +1,9 @@
-const express = require('express')
+import express from 'express'
+//const express = require('express')
 const app = express()
 const port = 3000
 
-const path = require('path');
 
-const person = require('./Person')
 
 app.use(express.static('html'))
 
@@ -15,3 +14,16 @@ app.use(express.static('html'))
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+//import express from 'express'
+//const app = express()
+//const port = 3000
+//app.use(express.static('html'))
+
+//app.use('/OffBoarding', (req, res) => {
+//  
+//})
+
+//app.listen(port, () => {
+//  console.log(`Example app listening on port ${port}`)
+//})
