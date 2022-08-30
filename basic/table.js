@@ -1,4 +1,4 @@
-<table class="table table-striped table-sm">
+{/* <table class="table table-striped table-sm">
           <thead>
             <tr>
               <th scope="col">Name</th>
@@ -11,8 +11,8 @@
             </tr>
           </thead>
           <tbody>
-          </tbody>
-        </table>
+    </tbody>
+</table> */}
 
 
 var data = [
@@ -25,9 +25,9 @@ var data = [
     { "name": "5004", "office": "Maple", "position": "big brain", "department": "big brainers", "assignedto": "t-money$$$", "percent": "110%", "startdate": "now >:)"}
 ]
 
-function populateList(table, data){
-    for (let element of data){
-      let row = table.insertRow();
+function populateList(data){
+    for (element in data){
+      row = table.insertRow();
       for (key in element){
           let cell = row.insertCell();
           let text = document.createTextNode(element[key]);
