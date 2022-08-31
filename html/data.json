@@ -1,0 +1,42 @@
+{
+    
+            {
+                  "EndDate": "11/22/22",
+                  "FirstName": "Brandon",
+                  "LastName": "Moy",
+                  "Office": "Chicago",
+                  "Department": "Information Technology",
+                  "Supervisor": "Dennis Burnett",
+                  "Type": "Resignation"
+            },
+
+            {
+                  "EndDate": "10/20/23",
+                  "FirstName": "Thomas",
+                  "LastName": "Walsh",
+                  "Office": "Chicago",
+                  "Department": "Information Technology",
+                  "Supervisor": "Dennis Burnett",
+                  "Type": "Resignation"
+            },
+
+            {
+                  "EndDate": "08/17/22",
+                  "FirstName": "Isaac",
+                  "LastName": "Montano",
+                  "Office": "Chicago",
+                  "Department": "Information Technology",
+                  "Supervisor": "Dennis Burnett",
+                  "Type": "Intern Resignation"
+            },
+
+            {
+                  "EndDate": "09/15/23", 
+                  "FirstName": "Dennis",
+                  "LastName": "Burnett",
+                  "Office": "Chicago",
+                  "Department": "Information Technology",
+                  "Supervisor": "Mike Carr",
+                  "Type": "Dismissal"
+            }
+      
